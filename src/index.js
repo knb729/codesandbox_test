@@ -74,3 +74,23 @@
 // const arr6 = [...arr4,...arr5];
 
 // console.log(arr6);
+
+//mapやフィルターを使った配列の処理
+const nameArr = ["tanaka", "yamada", "suzuki"];
+// for (let index = 0;index < nameArr.length;index++){
+//   console.log(nameArr[index]);
+// }
+
+// const nameArr2 = nameArr.map((name)=>{
+//  return name;
+// })
+// console.log(nameArr2);
+
+// nameArr.map((name) => console.log(name));
+
+const numArr = [1, 2, 3, 4, 5];
+const newNumArr = numArr.filter((num) => {
+  return num % 2 === 1;
+});
+
+console.log(newNumArr);
